@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.goldencis</groupId>
+  <artifactId>gdc-framework-util</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190905055325</lastUpdated>
+  </versioning>
+</metadata>

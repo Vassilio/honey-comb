@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.goldencis.gdcontainer</groupId>
+  <artifactId>spring-boot-starter-metrics</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190905055331</lastUpdated>
+  </versioning>
+</metadata>
