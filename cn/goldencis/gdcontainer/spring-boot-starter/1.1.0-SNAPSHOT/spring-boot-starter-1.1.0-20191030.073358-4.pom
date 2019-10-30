@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starters</artifactId>
+		<version>1.5.13.RELEASE</version>
+		<relativePath />
+	</parent>
+	<modules>
+		<module>spring-boot-starter-msg-amq</module>
+		<module>spring-boot-starter-msg-redis</module>
+		<module>spring-boot-starter-core</module>
+		<module>spring-boot-starter-all</module>
+		<module>spring-boot-starter-metrics</module>
+	</modules>
+	<properties>
+		<jhipster-dependencies.version>0.1.12</jhipster-dependencies.version>
+		<gdc-framework.version>1.1.0-SNAPSHOT</gdc-framework.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<groupId>cn.goldencis.gdcontainer</groupId>
+	<artifactId>spring-boot-starter</artifactId>
+	<version>1.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.github.jhipster</groupId>
+				<artifactId>jhipster-dependencies</artifactId>
+				<version>${jhipster-dependencies.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
